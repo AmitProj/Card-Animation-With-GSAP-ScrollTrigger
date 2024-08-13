@@ -1,0 +1,82 @@
+@font-face{
+    font-family:Slussen;
+    src:url(/fonts/Slussen-Compressed-Black.woff2) format("woff2");
+    font-display:swap;
+    font-weight:900;
+    font-stretch:compressed;
+}
+
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-family: Slussen;
+}
+
+.cards {
+    height: 100vh;
+    width:80%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    /* margin-bottom: 50px; */
+    /* transform: skewY(5deg); */
+}
+
+.card-6 {
+    top: 180px;
+    
+}
+
+.card-5 {
+    top: 140px;
+    
+    /* transform: skewY(5deg); */
+    background: #f1606f;
+}
+
+.card-4 {
+    top: 100px;
+    /* transform: skewY(5deg); */
+    background: #dbf160;
+}
+.card-3 {
+    top: 60px;
+    /* transform: skewY(5deg); */
+    background: #60f178;
+}
+.card-2 {
+    top: 40px;
+    /* transform: skewY(5deg); */
+    background: #f160de;
+}
+.card-1 {
+    top: 0px;
+    /* transform: skewY(5deg); */
+    background: #609af1;
+}
+
+.card h2 {
+    font-size: 80px;
+    font-weight: 900;
+    font-stretch: condensed;
+    color: #ff98a2;
+    text-transform: uppercase;
+}
+section{
+    height: 100vh;
+}
